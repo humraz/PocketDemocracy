@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pockd</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_createforum">createforum</string>
+    <string name="title_activity_listforum">listforum</string>
+    <string name="title_activity_findforum">findforum</string>
+    <string name="title_activity_forumpost">forumpost</string>
+    <string name="title_activity_listforumcards">listforumcards</string>
+    <string name="title_activity_collectorforums">Collectorforums</string>
+    <string name="title_activity_collectorforumlist">collectorforumlist</string>
+    <string name="create">Create A Forum</string>
+    <string name="listfroums">List Forums</string>
+    <string name="filterforums">Filter Forums</string>
+    <string name="sale">deciding</string>
+    <string name="notific">Notifications</string>
+    <string name="list">List Forums</string>
+    <string name="deleteforum">Delete Forums</string>
+    <string name="deleteposts">Delete Posts</string>
+    <string name="sendnotif">Send Notification</string>
+    <string name="title_activity_notification">notification</string>
+</resources>

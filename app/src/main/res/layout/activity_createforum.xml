@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1"
+        android:onClick="c2">
+
+        <!-- Email Label -->
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Forum Name"
+            app:met_baseColor="#080808"
+            app:met_textColorHint="#837b76"
+            app:met_primaryColor="#ff46e358"
+            app:met_errorColor="#ffff7064"
+            android:id="@+id/fname"
+            app:met_floatingLabel="normal"
+            app:met_minCharacters="0"
+            app:met_maxCharacters="25"
+
+            />
+
+        <!-- Password Label -->
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Brief Desc Of Forum"
+
+            app:met_baseColor="#080808"
+            app:met_textColorHint="#837b76"
+            app:met_primaryColor="#ff46e358"
+            app:met_errorColor="#ffff7064"
+            android:id="@+id/fdesc"
+            app:met_floatingLabel="normal"
+            app:met_minCharacters="0"
+            app:met_maxCharacters="25"
+
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.41" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Area Code"
+
+            app:met_baseColor="#080808"
+            app:met_textColorHint="#837b76"
+            app:met_primaryColor="#ff46e358"
+            app:met_errorColor="#ffff7064"
+            android:id="@+id/farea"
+            app:met_floatingLabel="normal"
+            app:met_minCharacters="0"
+            app:met_maxCharacters="25"></com.rengwuxian.materialedittext.MaterialEditText>
+        <com.roughike.swipeselector.SwipeSelector
+            android:id="@+id/swipeSelector"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:swipe_indicatorSize="10dp"
+            app:swipe_indicatorMargin="12dp"
+            app:swipe_indicatorInActiveColor="#DDDDDD"
+            app:swipe_indicatorActiveColor="#FF00FF"
+            app:swipe_descriptionGravity="center"/>
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREATE"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            custom:pb_colorComplete="@color/green_complete"
+            custom:pb_colorNormal="@color/blue_normal"
+            custom:pb_colorPressed="@color/blue_pressed"
+            custom:pb_colorProgress="@color/purple_progress"
+            custom:pb_textComplete="Success"
+            custom:pb_textProgress="Loading"
+            custom:pb_textError="Error"
+            custom:pb_colorError="@color/red_error"
+            android:onClick="click"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

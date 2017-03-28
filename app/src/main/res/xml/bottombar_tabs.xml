@@ -1,0 +1,17 @@
+<tabs>
+    <tab
+        id="@+id/t_fav"
+        icon="@drawable/chat"
+        barColorWhenSelected="#ff3ddbfd"
+        title="Favorites" />
+    <tab
+        id="@+id/t_near"
+        icon="@drawable/chat"
+        barColorWhenSelected="#ff5b57f2"
+        title="Nearby" />
+    <tab
+        id="@+id/t_fri"
+        icon="@drawable/chat"
+        barColorWhenSelected="#ff61bbff"
+        title="Friends" />
+</tabs>

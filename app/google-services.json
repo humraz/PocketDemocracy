@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "433340226169",
+    "firebase_url": "https://pockeddmo-7e844.firebaseio.com",
+    "project_id": "pockeddmo-7e844",
+    "storage_bucket": "pockeddmo-7e844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433340226169:android:8fa24acdcf9580a2",
+        "android_client_info": {
+          "package_name": "com.example.humraz.pockd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433340226169-qieho361i9j4364d0hubr33ltrd36uk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvScDY84UZLjdNZmaoG6rnMNzmIZ_Q3XU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

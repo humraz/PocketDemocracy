@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.humraz.pockd">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme"
+        tools:replace="android:icon">
+        <receiver
+            android:name=".notifications.MyAlarmReceiver"
+            android:process=":remote" />
+
+        <service
+            android:name=".notifications.MyTestService"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup"
+            android:label="hi" />
+        <activity
+            android:name=".personalinfo"
+            android:label="hi" />
+        <activity
+            android:name=".login"
+            android:label="hi" />
+        <activity
+            android:name=".forumnew"
+            android:label="hi" />
+        <activity
+            android:name=".menu"
+            android:label="hi" />
+        <activity
+            android:name=".Splash"
+            android:label="hi" />
+        <activity
+            android:name=".createforum"
+            android:label="@string/title_activity_createforum" />
+        <activity
+            android:name=".listforum"
+            android:label="@string/title_activity_listforum" />
+        <activity
+            android:name=".findforum"
+            android:label="@string/title_activity_findforum" />
+        <activity
+            android:name=".forumpost"
+            android:label="@string/title_activity_forumpost" />
+        <activity
+            android:name=".listforumcards"
+            android:label="@string/title_activity_listforumcards" />
+        <activity
+            android:name=".Collectorforums"
+            android:label="@string/title_activity_collectorforums" />
+        <activity
+            android:name=".collectorforumlist"
+            android:label="@string/title_activity_collectorforumlist" />
+        <activity android:name=".notific" />
+        <activity android:name=".makenotication" />
+        <activity android:name=".admin.adminlogin" />
+        <activity android:name=".admin.adminmenu" />
+        <activity android:name=".admin.deleteforum" />
+        <activity android:name=".admin.deleteposts" />
+        <activity android:name=".admin.deletepostsmain" />
+        <activity
+            android:name=".admin.notification"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".admin.Main2Activity"></activity>
+    </application>
+
+</manifest>
